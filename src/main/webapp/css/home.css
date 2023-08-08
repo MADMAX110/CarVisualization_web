@@ -1,0 +1,183 @@
+#center {
+	position: relative;
+	left: 38%;
+	top:-1%;
+	width: 24%;
+	height: 3%;}
+#lable_1
+{
+	position: relative;
+	width: 32%;
+	height:100%;
+	left: 0%;  
+	top:0%;
+	border: 2px solid #797979;
+	background-color:#F2DEC6;
+	opacity:0.7;
+	border-radius: 10px;
+}
+#lable_2
+{
+	position: relative;
+	width: 32%;
+	height:100%;
+	left:34%;
+	top:-118%;
+	border: 2px solid #797979;
+	background-color:#DDD8CC;
+	opacity:0.7;
+	border-radius: 10px;
+}
+#lable_3
+{
+	position: relative;
+	width: 32%;
+	height:100%;
+	left:68%;
+	top:-236%;
+	border: 2px solid #797979;
+	background-color:#DDD8CC;
+	opacity:0.7;
+	border-radius: 10px;
+}
+#left {
+	float: left;
+	width: 60%;
+	height: 100%;
+	position: relative;
+	left: 0%;
+	top:-1.5%;
+	
+}
+#right {
+	float: right;
+	position: relative;
+	border: 6px solid #46393B;
+	background-color:#7A6E70;
+	opacity:0.75;
+	border-radius: 30px;
+	left: 0%;
+	top:-1.5%;
+	width: 38.6%;
+	height: 55.9%;
+}
+#right_1 {
+	float: right;
+	position: relative;
+	border: 6px solid #A0A9B0;
+	background-color:#D0D1D5;
+	opacity:0.90;
+	border-radius: 25px;
+	left: 0%;
+	top:1.5%;
+	width: 38.6%;
+	height: 25%;
+}
+#lable_map
+{
+	width: 75px;
+	height:20px;
+	position: relative;
+	top:0%;
+	left: 0%;
+	border: 2px solid #797979;
+	background-color:#C3C9CE;
+	opacity:0.75;
+	border-radius: 10px;
+}
+#lable_road
+{
+	width: 75px;
+	height:20px;
+	position: relative;
+	top:-3%;
+	left:60%;
+	border: 2px solid #797979;
+	background-color:#C3C9CE;
+	opacity:0.75;
+	border-radius: 10px;
+	
+}
+#nav{
+	position:relative;
+	left: 8%;
+	top:-6.5%;
+	width: 10%;
+	
+}
+#roadview {
+	position: relative;
+	left:4%;
+	border: 6px solid #F3E6E6;
+	border-radius: 10px;
+	width: 90%;
+    height: 70%; 
+    background-repeat: no-repeat;}
+#carstop_1 {
+	position: relative;
+	top:0%;
+	left:8%;
+	border-radius: 4px;
+	width: 15%;
+    height: 55%; 
+	background-color:#96504B;
+    background-repeat: no-repeat;}
+#carstop_2 {
+	position: relative;
+	top:-55%;
+	left:31%;
+	border-radius: 4px;
+	width: 15%;
+    height: 55%; 
+	background-color:#828B78;
+    background-repeat: no-repeat;}
+#carstop_3 {
+	position: relative;
+	top:-110%;
+	left:54%;
+	border-radius: 4px;
+	width: 15%;
+    height: 55%; 
+	background-color:#828B78;
+    background-repeat: no-repeat;}
+#carstop_4 {
+	position: relative;
+	top:-165%;
+	left:77%;
+	border-radius: 4px;
+	width: 15%;
+    height: 55%; 
+	background-color:#828B78;
+    background-repeat: no-repeat;}
+#map {
+	
+    position:relative;
+	left:0%;
+	top:0%;
+    width: 96%;
+    height: 95%;
+    max-width: 100%;
+    background-image: url("../images/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+#car {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: auto;
+    top: auto;
+    background-color: transparent;
+    background-image: url("../images/car.png");
+    background-size: cover;
+    z-index: 10;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/page2.jpg");
+	width: 1294px;
+	height: 733px;
+}
